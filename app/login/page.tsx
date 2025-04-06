@@ -61,7 +61,9 @@ export default function LoginPage() {
               <FileText className="h-6 w-6 text-primary-foreground" />
             </div>
           </div>
-          <CardTitle className="text-2xl text-center">College Complaint Box</CardTitle>
+          {/* <CardTitle className="text-2xl text-center">College Complaint Box</CardTitle> */}
+          <CardTitle className="text-2xl text-center">Application for Complaint notification and Resolution</CardTitle>
+          
           <CardDescription className="text-center">Enter your credentials to access the system</CardDescription>
         </CardHeader>
         <form onSubmit={handleSubmit}>
